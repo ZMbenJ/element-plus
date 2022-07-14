@@ -5,7 +5,7 @@
     </el-input>
   </div>
   <div class="mt-4">
-    <el-input v-model="input2" placeholder="Please input">
+    <el-input v-model="input2" placeholder="Please input" clearable >
       <template #append>.com</template>
     </el-input>
   </div>
